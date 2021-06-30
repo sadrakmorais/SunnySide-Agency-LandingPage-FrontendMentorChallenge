@@ -1,0 +1,96 @@
+ *{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+ }
+
+ h1{
+  
+  font-family: 'Fraunces', serif;
+  font-weight:900;
+ }
+ p,a{
+  font-family: 'Barlow', sans-serif;
+  font-weight:600;
+
+ }
+    .attribution{ 
+      font-size:11px;
+      text-align:center;
+    
+    }
+
+    .attribution  a{
+      color:hsl(228, 45%, 44%);
+      font-size: 14px;
+    }
+
+
+    .header{
+      background:#3dbeff;
+      width:1440px;
+      margin:0 auto;
+      text-align: center;
+      position: relative;
+    }
+  .navbar{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 50px;
+    position: relative;
+  }
+ .navbar .menu{
+   display:flex;
+   margin-right: 100px;
+ }
+ .navbar .menu li{
+   margin-left: 10px;
+ }
+ .navbar img{
+   margin-left:100px;
+   width: 200px;
+ }
+ .navbar a{
+   color: #fff;
+   font-size:14px;
+   margin-right: 25px;
+   padding:15px;
+ }
+
+ .navbar ul li:last-child a{
+   color: #000;
+  font-family: 'Fraunces', serif;
+  background: #fff;
+  border-radius:60px;
+  text-transform: uppercase;
+  font-size:16px;
+  padding:10px 15px;
+ }
+ .navbar ul li:last-child a:hover{
+   background: rgb(179, 211, 238);
+   transition: 0.2s
+ }
+
+ .header .orangeBGHeader{
+   max-width: 100%;
+   margin-top: -460px;
+ }
+ .header .arrow{
+   position: relative;
+   margin-top:100px;
+ }
+
+ .header .title{
+   text-transform: uppercase;
+   margin-top: 100px;
+   color: #fff;
+   font-size:44px;
+   position: relative;
+   letter-spacing: 8px;
+ }
+
+
+
